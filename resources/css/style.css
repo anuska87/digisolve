@@ -159,12 +159,14 @@ header {
 
 .work-section {
   text-align: center;
+  background-color: #f4f4f4;
 }
 
 .section-heading {
   font-size: 250%;
   color: black;
   margin-bottom: 20px;
+  margin-top: 150px;
 }
 
 .section-sub-heading {
@@ -215,4 +217,15 @@ header {
 
 .work-para {
   color: white
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+.clear-fix:after {
+  content:"";
+  display: table;
+  clear: both;
+  visibility: hidden;
 }
