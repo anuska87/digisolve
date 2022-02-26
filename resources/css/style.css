@@ -150,3 +150,61 @@ header {
   width: 80%;
   height: auto;
 }
+
+.about-section {
+  padding-bottom: 20px;
+}
+
+/**** WORK SECTION ****/
+
+.work-section {
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 250%;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.section-sub-heading {
+  font-size: 150%;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.section-sub-heading:after{
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #ed07b7;
+  content: " ";
+  margin: 30px auto 0 auto;
+}
+
+.work-portfolio {
+  margin-top: 10px;
+  list-style: none;
+  width: 100%;
+}
+
+.work-portfolio li {
+  display: block;
+  width: 25%;
+  float: left;
+}
+
+.portfolio-img {
+  background-color: black;
+}
+
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+  opacity: .7;
+}
+
+.work-para {
+  color: white
+}
