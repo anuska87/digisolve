@@ -27,6 +27,39 @@ header {
   position: relative;
 }
 
+.logo {
+  height: 120px;
+  width: auto;
+  float: left;
+}
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 50px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+.main-nav li a {
+  padding-bottom: 10px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited  {
+  text-decoration: none;
+  color: white;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom:2px solid #ed07b7;
+}
+
 .header-box {
   position: absolute;
   top: 50%;
@@ -68,9 +101,4 @@ h2 {
 .btn-full:hover,
 .btn-full:active {
   background-color: #be0692;
-}
-
-.logo {
-  height: 120px;
-  width: auto;
 }
