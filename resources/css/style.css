@@ -69,3 +69,8 @@ h2 {
 .btn-full:active {
   background-color: #be0692;
 }
+
+.logo {
+  height: 120px;
+  width: auto;
+}
