@@ -197,12 +197,20 @@ header {
 
 .portfolio-img {
   background-color: black;
+  overflow: hidden;
 }
 
 .portfolio-img img {
   width: 100%;
   height: auto;
   opacity: .7;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.portfolio-img img:hover {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .work-para {
