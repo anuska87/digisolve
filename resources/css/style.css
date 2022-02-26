@@ -4,13 +4,46 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: white;
   color: black;
   text-rendering: optimizeLegibility;
+  font-size: 16px;
+  font-family: 'Work Sans', 'Arial', sans-serif ;
+  font-weight: 300;
 }
 
 .row {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url(img/header-img.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 500%;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 200%;
+  color: white;
+  font-weight: 400;
 }
