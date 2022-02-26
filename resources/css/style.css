@@ -53,6 +53,7 @@ header {
 .main-nav li a:visited  {
   text-decoration: none;
   color: white;
+  transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
