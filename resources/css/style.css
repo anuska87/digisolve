@@ -11,7 +11,6 @@ body {
   text-rendering: optimizeLegibility;
   font-size: 16px;
   font-family: 'Work Sans', 'Arial', sans-serif ;
-  font-weight: 300;
 }
 
 .row {
@@ -86,6 +85,8 @@ h2 {
   font-weight: 400;
 }
 
+/***** Buttons ****/
+
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -102,4 +103,46 @@ h2 {
 .btn-full:hover,
 .btn-full:active {
   background-color: #be0692;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 2px solid #ed07b7;
+  color: #ed07b7;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  background-color: #ed07b7;
+  color: white;
+}
+
+.about-heading {
+  color: black;
+  font-size: 250%;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.about-para {
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.about-box {
+  margin-top: 120px;
+}
+
+.about-box:first-child {
+  text-align: left;
+  padding: 0 5%;
+}
+
+.about-box:last-child {
+  text-align: right;
+}
+
+.laptop-img {
+  width: 80%;
+  height: auto;
 }
