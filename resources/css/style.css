@@ -186,6 +186,7 @@ header {
   color: #555;
   font-weight: 300;
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 .section-sub-heading:after{
@@ -265,4 +266,15 @@ header {
   color: #ed07b7;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/**** PARTNERS SECTION ****/
+
+.partners-section {
+  text-align: center;
+}
+
+.partner-logo {
+  width: 65%;
+  height: auto;
 }
