@@ -131,6 +131,32 @@ header {
   margin-bottom: 100px;
 }
 
+/**** GENERAL SECTION CLASSES ****/
+
+.section-heading {
+  font-size: 250%;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+.section-sub-heading {
+  font-size: 150%;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.section-sub-heading:after{
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #ed07b7;
+  content: " ";
+  margin: 30px auto 0 auto;
+}
+
 /**** ABOUT SECTION ****/
 
 .about-heading {
@@ -172,30 +198,6 @@ header {
 .work-section {
   text-align: center;
   background-color: #f4f4f4;
-}
-
-.section-heading {
-  font-size: 250%;
-  color: black;
-  margin-bottom: 20px;
-  margin-top: 150px;
-}
-
-.section-sub-heading {
-  font-size: 150%;
-  color: #555;
-  font-weight: 300;
-  margin-bottom: 30px;
-  line-height: 1.5;
-}
-
-.section-sub-heading:after{
-  display: block;
-  height: 2px;
-  width: 100px;
-  background-color: #ed07b7;
-  content: " ";
-  margin: 30px auto 0 auto;
 }
 
 .work-portfolio {
