@@ -280,3 +280,52 @@ header {
   width: 65%;
   height: auto;
 }
+
+/**** TESTIMONIALS SECTION ****/
+
+.testimonials-section {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),url(img/testimonial-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.testimonial-heading {
+  color: white;
+}
+
+.testimonial-box {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+blockquote:before {
+  content:"\201C";
+  display: block;
+  font-size: 500%;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+}
+
+cite {
+  display: block;
+  margin-top: 25px;
+  font-size: 90%;
+}
+
+cite img {
+  border-radius: 50%;
+  height: 20%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
