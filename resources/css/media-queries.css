@@ -80,3 +80,49 @@
     margin-bottom: 50px;
   }
 }
+
+/* Smaller to larger mobile phones */
+@media only screen and (max-width:480px) {
+  .laptop-img {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .about-box:last-child {
+    text-align: center;
+  }
+
+  .about-box:first-child {
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  .span_1_of_4 {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .span_1_of_3 {
+    padding: 0 10%;
+    margin-bottom: 5px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-label {
+    padding-left: 0;
+  }
+
+  .footer-nav,
+  .social-links {
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .work-portfolio li {
+    width: 50%;
+  }
+}
