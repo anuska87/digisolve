@@ -17,9 +17,15 @@ $(document).ready(function() {
     }
   });
 
-  /** Animation on scroll */
+  /** Animations on scroll */
   $(".js--about-section").waypoint(function() {
     $(".js--about-box").addClass("animate__animated animate__fadeIn");
+  }, {
+    offset: "50%"
+  });
+
+  $(".js--services-section").waypoint(function() {
+    $(".js--service-box").addClass("animate__animated animate__zoomIn");
   }, {
     offset: "50%"
   });

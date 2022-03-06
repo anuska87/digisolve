@@ -315,6 +315,10 @@ header {
   text-decoration: none;
 }
 
+.js--service-box { /** JQuery animate on scroll*/
+  animation-duration: 1.5s;
+}
+
 /**** PARTNERS SECTION ****/
 
 .partners-section {
