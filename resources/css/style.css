@@ -224,6 +224,15 @@ header {
   padding-bottom: 20px;
 }
 
+.js--about-box { /** JQuery animate on scroll*/
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js--about-box.animate__animated{ /** JQuery animate on scroll*/
+  opacity: 1;
+}
+
 /**** WORK SECTION ****/
 
 .work-section {
