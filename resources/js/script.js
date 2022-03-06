@@ -29,4 +29,8 @@ $(document).ready(function() {
   }, {
     offset: "50%"
   });
+
+  $(".js--packages-section").waypoint(function() {
+    $(".js--enterprise").addClass("animate__animated animate__pulse");
+  });
 });
