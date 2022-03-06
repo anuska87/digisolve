@@ -9,11 +9,11 @@ $(document).ready(function() {
 
   /** Waypoint from: http://imakewebthings.com/waypoints/ */
   /** Adding Sticky navigation */
-  $(".about-section").waypoint(function(direction) {
+  $(".js--about-section").waypoint(function(direction) {
     if(direction === "down"){
-      $("nav").addClass('sticky-nav');
+      $("nav").addClass("sticky-nav");
     } else {
-      $("nav").removeClass('sticky-nav');
+      $("nav").removeClass("sticky-nav");
     }
   });
 
@@ -33,5 +33,10 @@ $(document).ready(function() {
 
   $(".js--packages-section").waypoint(function() {
     $(".js--enterprise").addClass("animate__animated animate__pulse");
+  });
+
+  /** Scrolling to contact section */
+  $(".js--scroll-to-contact").click(function() {
+    $("html, body").animate({scrollTop:$(".js--contact").offset().top}, 1000)
   });
 });
