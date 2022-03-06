@@ -18,6 +18,7 @@ $(document).ready(function() {
   });
 
   /** Animations on scroll */
+  /** Animations from https://animate.style/ */
   $(".js--about-section").waypoint(function() {
     $(".js--about-box").addClass("animate__animated animate__fadeIn");
   }, {
